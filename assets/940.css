@@ -1,0 +1,24 @@
+.strapline {
+	PADDING-RIGHT: 34.28%
+}
+.col1 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: left; PADDING-TOP: 2em
+}
+.col2 {
+	
+}
+.col3 {
+	
+}
+.col2 .col {
+	WIDTH: 48.57%; FLOAT: left; MARGIN-LEFT: 2.85%
+}
+.col3 .col {
+	WIDTH: 31.42%; FLOAT: left; MARGIN-LEFT: 2.85%
+}
+.col2 .col:first-child {
+	MARGIN-LEFT: 0px
+}
+.col3 .col:first-child {
+	MARGIN-LEFT: 0px
+}

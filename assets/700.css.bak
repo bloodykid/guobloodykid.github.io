@@ -1,0 +1,54 @@
+BODY {
+	BACKGROUND-IMAGE: url(img/bg.png); BACKGROUND-REPEAT: repeat-y
+}
+.wrapper {
+	WIDTH: 90%; MAX-WIDTH: 980px; OVERFLOW: auto
+}
+.home {
+	BACKGROUND-IMAGE: url(img/logo-text.gif); POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 380px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 46px; OVERFLOW: hidden; TOP: 47px; PADDING-TOP: 0px; LEFT: 0px
+}
+.head {
+	BACKGROUND-IMAGE: url(img/header-bg.png); Z-INDEX: 100; POSITION: fixed; MARGIN: 0px; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left -30px; HEIGHT: 175px; TOP: 0px
+}
+.strapline {
+	PADDING-BOTTOM: 80px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 1.5em
+}
+.mainnav {
+	BACKGROUND-IMAGE: none; POSITION: relative; WIDTH: 26.53%; FLOAT: left
+}
+.mainnav UL {
+	BACKGROUND-IMAGE: url(img/chair.png); Z-INDEX: 100; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 85% 55px; PADDING-TOP: 180px
+}
+.mainnav LI {
+	TEXT-ALIGN: right; FONT-FAMILY: "Avenir LT W02 35 Light", helvetica, arial, sans-serif
+}
+.mainnav LI A:link {
+	Z-INDEX: 100; POSITION: relative; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MIN-HEIGHT: 31px; PADDING-LEFT: 0px; PADDING-RIGHT: 30px; DISPLAY: block; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; FONT-SIZE: 128.6%; BORDER-LEFT-WIDTH: 0px; TEXT-DECORATION: none; PADDING-TOP: 8px
+}
+.mainnav LI A:visited {
+	Z-INDEX: 100; POSITION: relative; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MIN-HEIGHT: 31px; PADDING-LEFT: 0px; PADDING-RIGHT: 30px; DISPLAY: block; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; FONT-SIZE: 128.6%; BORDER-LEFT-WIDTH: 0px; TEXT-DECORATION: none; PADDING-TOP: 8px
+}
+.mainnav LI.inside A:link {
+	BACKGROUND-IMAGE: url(img/nav-blog-divider.gif); BACKGROUND-REPEAT: no-repeat
+}
+.mainnav LI.inside A:visited {
+	BACKGROUND-IMAGE: url(img/nav-blog-divider.gif); BACKGROUND-REPEAT: no-repeat
+}
+.mainnav LI A:hover {
+	BACKGROUND-IMAGE: url(img/nav-selected.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center
+}
+.mainnav LI.selected A:link {
+	BACKGROUND-IMAGE: url(img/nav-selected.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center
+}
+.mainnav LI.selected A:visited {
+	BACKGROUND-IMAGE: url(img/nav-selected.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center
+}
+.mainnav LI.inside A:hover {
+	BACKGROUND-IMAGE: url(img/nav-selected.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center
+}
+.content {
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.5; BACKGROUND-COLOR: #f2f1f5; MIN-HEIGHT: 900px; PADDING-LEFT: 2.04%; WIDTH: 71.42%; PADDING-RIGHT: 0px; FLOAT: right; CLEAR: none; PADDING-TOP: 163px; -webkit-box-shadow: -6px 0px 30px 0px rgba(0, 0, 0, 0.7); box-shadow: -6px 0px 30px 0px rgba(0, 0, 0, 0.7)
+}
+.section {
+	PADDING-BOTTOM: 200px; MARGIN-BOTTOM: 200px
+}
